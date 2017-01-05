@@ -1,0 +1,15 @@
+Package: IPDdata
+Title: Allele data from from IPD-IMGT/HLA
+Version: 0.0.1
+Authors@R: person("Gerhard", "Schöfl", ,"schoefl@dkms-lab.de", role = c("aut", "cre"))
+Description: Allele data from from IPD-IMGT/HLA.
+Depends:
+    R (>= 3.3.2)
+License: MIT + file LICENSE
+Suggests:
+    testthat (>= 0.8)
+Encoding: UTF-8
+LazyData: true
+Type: Package
+Maintainer: Gerhard Schöfl <schoefl@dkms-lab.de>
+RoxygenNote: 5.0.1

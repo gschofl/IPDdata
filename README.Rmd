@@ -1,0 +1,34 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# IPDdata
+
+An R data package that provides a snapshot of the IPD-IMGT/HLA and IPD-KIR
+database for use with `DR2S`.
+
+Data are provided as `HLAGene` object as defined in the package `HLAtools`.
+
+Git tags refer to the IPD-IMGT/HLA release that is encapsulated in the
+`HLAGene` objects.
+
+## Usage
+
+`IPDdata` provides one function `loadIPDdata(locus)`:
+
+```{r}
+library(IPDdata)
+x <- loadIPDdata("DPB1")
+x
+```
+

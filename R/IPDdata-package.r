@@ -13,6 +13,7 @@
 #' Gerhard Schöfl \email{schoefl@@dkms-lab.de}
 #' Maintainer: Gerhard Schöfl \email{schoefl@@dkms-lab.de}
 #' @import hlatools
+#' @import R6
 #' @name IPDdata
 #' @docType package
 NULL
